@@ -195,7 +195,7 @@ h6 {
     .page-container {
         flex-wrap: wrap;
         width: 100%;
-        top: 2rem;
+        top: 5rem;
     }
 
     .nev-bar-section {
@@ -213,7 +213,7 @@ h6 {
     }
     .discount-price{
         float: right;
-        margin-top: -1.6rem;
+        margin-top: -1.4rem;
     }
     /* menu-section */
 
@@ -226,7 +226,11 @@ h6 {
 
     .top-section{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#d5ff71;
         flex-direction: row;
+        padding: 3px 10px;
         gap: 7.8rem;
     }
     .menu-logo{
