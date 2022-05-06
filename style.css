@@ -6,7 +6,9 @@
     position: relative;
 }
 
-
+.top-bar-section{
+    display: none;
+}
 
 .nev-section {
     width: 100%;
@@ -212,5 +214,30 @@ h6 {
     .discount-price{
         float: right;
         margin-top: -1.6rem;
+    }
+    /* menu-section */
+
+    .top-bar-section{
+        display: block;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .top-section{
+        display: flex;
+        flex-direction: row;
+        gap: 7.8rem;
+    }
+    .menu-logo{
+        display: flex;
+        gap:1rem;
+    }
+    .cart-user-section{
+        display: flex;
+        gap:1rem;
+    }
+    .user-phone{
+        width: 2.2rem;
     }
 }
