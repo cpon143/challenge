@@ -215,6 +215,10 @@ h6 {
         float: right;
         margin-top: -1.4rem;
     }
+    .quantity-btn{
+        margin: 1rem 0;
+    }
+
     /* menu-section */
 
     .top-bar-section{
@@ -246,4 +250,5 @@ h6 {
     .user-phone{
         width: 2.2rem;
     }
+
 }
