@@ -6,6 +6,8 @@
     position: relative;
 }
 
+
+
 .nev-section {
     width: 100%;
     background-color: #e1f3b7;
@@ -136,6 +138,10 @@ h3 {
 
 h6 {
     color: #999;
+}
+
+.discount-price{
+    color: #999;
     text-decoration: line-through;
 }
 
@@ -193,12 +199,18 @@ h6 {
     .nev-bar-section {
         display: none;
     }
-    .product-descrpton{
+
+    .product-descrpton {
         width: 90%;
-        margin:0 auto;
+        margin: 0 auto;
     }
-    .increase{
-        width:40%;
-        gap:1rem;
+
+    .increase {
+        width: 40%;
+        gap: 1rem;
+    }
+    .discount-price{
+        float: right;
+        margin-top: -1.6rem;
     }
 }
